@@ -1,0 +1,91 @@
+.hero{
+    position: relative;
+    top:100px;
+    width:100%;
+    display: flex;
+    max-width:   1250px;
+    margin:auto;
+}
+
+.left{
+    width: 50%;
+    padding: 0.5rem;
+}
+
+.welcome{
+    color: #91BC4D;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.discover{
+    background: linear-gradient(180deg, #54B9ED 0%, #2E6CA8 100%);
+    background-clip: text;
+    color: transparent; 
+    font-weight: 700;
+    font-size: 6rem;
+    line-height: 5.5rem;
+}
+
+.content{
+    padding: 1rem 0rem;
+   color: #B5B5B6;
+   font:400;
+   font-size: 1rem;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.buttons{
+    padding: 1rem  0rem;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right{
+    width: 50%;
+}
+
+.image1{
+  width: 600px;
+   height: 500px;
+}
+
+
+@media screen and (max-width: 640px){
+
+    .hero{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left{
+        width: 100%;
+        padding: 0.5rem;
+    }
+
+    .right{
+        width: 100%;
+        margin-top: 20px;
+        border-top: 1px solid rgb(231, 228, 228);
+    }
+
+    .image1{
+        width: 100%;
+         height: auto;
+      }
+}
+
+@media screen and (max-width: 740px){
+    .discover{
+        font-size: 5rem;
+    } 
+
+    .buttons{
+        width: 80%;
+    }
+
+    .hero{
+        margin: 1rem;
+    }
+}

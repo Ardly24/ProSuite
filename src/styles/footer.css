@@ -1,0 +1,60 @@
+.footer{
+    background: linear-gradient(180deg, #54B9ED 0%, #2E6CA8 100%);
+    color: #fff;
+}
+.footer-content{
+    max-width: 1250px;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0.5rem;
+    
+  }
+
+  .aboutprosuite{
+    font-size: 0.75rem;
+    width: 20%;
+  }
+
+  .serviceslist{
+    font-size: 0.75rem;
+    line-height: 20px;
+  }
+
+  .links ul{
+    font-size: 0.75rem;
+    line-height: 20px;
+  }
+
+  .contact-us{
+    width: 20%;
+  }
+
+  .contact-us p{
+    font-size: 0.75rem;
+  }
+
+  @media screen and (max-width: 740px){
+    .footer-content{
+        max-width: 90%;
+        display: flex;
+        flex-direction: column;
+    } 
+
+    .aboutprosuite{
+        width: 80%;
+        margin-bottom: 1rem;
+      }
+
+      .serviceslist{
+        margin-bottom: 1rem;
+      }
+
+      .contact-us{
+        width: 80%;
+        margin-top: 1rem;
+      }
+
+      
+  }
+  
