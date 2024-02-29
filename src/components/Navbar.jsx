@@ -30,21 +30,21 @@ export default function Navbar(){
 
         <ul className={click ? 'nav-menu active': 'nav-menu'}>
             <li>
-                <Link to="/">HOME</Link>
+                <Link to="/prosuite">HOME</Link>
             </li>
             <li>
-                <Link to="/about">ABOUT</Link>
+                <Link to="/prosuite/about">ABOUT</Link>
             </li>
             <li>
-                <Link to="/solutions">SOLUTIONS</Link>
+                <Link to="/prosuite/solutions">SOLUTIONS</Link>
             </li>
             
             <li>
-                <Link to="/contact">CONTACT</Link>
+                <Link to="/prosuite/contact">CONTACT</Link>
             </li>
 
             <li>
-                <Link to="/contact" className="btn">REQUEST A DEMO</Link>
+                <Link to="/prosuite/contact" className="btn">REQUEST A DEMO</Link>
             </li>
         </ul>
 

@@ -37,11 +37,11 @@ const Footer = () => {
         <div className="links">
         <h4>Links</h4>
         <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">About</Link></li>
-             <li><Link to="/project">Solutions</Link></li>
-             <li><Link to="/contact">Contact</Link></li>
-             <li><Link to="/contact">Request a Demo</Link></li>
+            <li><Link to="/prosuite">Home</Link></li>
+            <li><Link to="/prosuite/about">About</Link></li>
+             <li><Link to="/prosuite/project">Solutions</Link></li>
+             <li><Link to="/prosuite/contact">Contact</Link></li>
+             <li><Link to="/prosuite/contact">Request a Demo</Link></li>
           </ul>
         </div>
 
